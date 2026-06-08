@@ -1,0 +1,1055 @@
+fileFormatVersion: 2
+guid: 70b485a274e0db68f9e7df19d6a80e8a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8898474000835742695
+    second: Knight-Red-Sheet-Single-Slash_0
+  - first:
+      213: -4041472978285651954
+    second: Knight-Red-Sheet-Single-Slash_1
+  - first:
+      213: 8844181926497178999
+    second: Knight-Red-Sheet-Single-Slash_2
+  - first:
+      213: -4675918800120557137
+    second: Knight-Red-Sheet-Single-Slash_3
+  - first:
+      213: -1640113396916014565
+    second: Knight-Red-Sheet-Single-Slash_4
+  - first:
+      213: 1500365103140058061
+    second: Knight-Red-Sheet-Single-Slash_5
+  - first:
+      213: -5253457159502400447
+    second: Knight-Red-Sheet-Single-Slash_6
+  - first:
+      213: -6923485286381020784
+    second: Knight-Red-Sheet-Single-Slash_7
+  - first:
+      213: 2008446064771649954
+    second: Knight-Red-Sheet-Single-Slash_8
+  - first:
+      213: 3259264213237936926
+    second: Knight-Red-Sheet-Single-Slash_9
+  - first:
+      213: 2157323408066260300
+    second: Knight-Red-Sheet-Single-Slash_10
+  - first:
+      213: 3786430295191249347
+    second: Knight-Red-Sheet-Single-Slash_11
+  - first:
+      213: -1061994706341821921
+    second: Knight-Red-Sheet-Single-Slash_12
+  - first:
+      213: 6736675580395949333
+    second: Knight-Red-Sheet-Single-Slash_13
+  - first:
+      213: -5986105610860079036
+    second: Knight-Red-Sheet-Single-Slash_14
+  - first:
+      213: -3086414062515357324
+    second: Knight-Red-Sheet-Single-Slash_15
+  - first:
+      213: 7555564899247857643
+    second: Knight-Red-Sheet-Single-Slash_16
+  - first:
+      213: -5893169181697002328
+    second: Knight-Red-Sheet-Single-Slash_17
+  - first:
+      213: -7473056360852521944
+    second: Knight-Red-Sheet-Single-Slash_18
+  - first:
+      213: 5663818137865252774
+    second: Knight-Red-Sheet-Single-Slash_19
+  - first:
+      213: -1118012030857909449
+    second: Knight-Red-Sheet-Single-Slash_20
+  - first:
+      213: -2611090341651324679
+    second: Knight-Red-Sheet-Single-Slash_21
+  - first:
+      213: 2653355330782154920
+    second: Knight-Red-Sheet-Single-Slash_22
+  - first:
+      213: 4190104504772450301
+    second: Knight-Red-Sheet-Single-Slash_23
+  - first:
+      213: 1906895589093722555
+    second: Knight-Red-Sheet-Single-Slash_24
+  - first:
+      213: -3752932168109632278
+    second: Knight-Red-Sheet-Single-Slash_25
+  - first:
+      213: -2600567317450138710
+    second: Knight-Red-Sheet-Single-Slash_26
+  - first:
+      213: -8654558965817139673
+    second: Knight-Red-Sheet-Single-Slash_27
+  - first:
+      213: -6569745789263518529
+    second: Knight-Red-Sheet-Single-Slash_28
+  - first:
+      213: -8114565235604222061
+    second: Knight-Red-Sheet-Single-Slash_29
+  - first:
+      213: -2959160919915019305
+    second: Knight-Red-Sheet-Single-Slash_30
+  - first:
+      213: 3361299964051589335
+    second: Knight-Red-Sheet-Single-Slash_31
+  - first:
+      213: -1582917799506226237
+    second: Knight-Red-Sheet-Single-Slash_32
+  - first:
+      213: 4573954963179711620
+    second: Knight-Red-Sheet-Single-Slash_33
+  - first:
+      213: 783536748818888644
+    second: Knight-Red-Sheet-Single-Slash_34
+  - first:
+      213: -148661189257318802
+    second: Knight-Red-Sheet-Single-Slash_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Knight-Red-Sheet-Single-Slash_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 180
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 914f229da05428480800000000000000
+      internalID: -8898474000835742695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Red-Sheet-Single-Slash_1
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 180
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0891f72dbdc9e7c0800000000000000
+      internalID: -4041472978285651954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Red-Sheet-Single-Slash_2
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 180
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7755bc98a98dcba70800000000000000
+      internalID: 8844181926497178999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Red-Sheet-Single-Slash_3
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 180
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa15e3810accb1fb0800000000000000
+      internalID: -4675918800120557137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Red-Sheet-Single-Slash_4
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 180
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1236712e852d39e0800000000000000
+      internalID: -1640113396916014565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Red-Sheet-Single-Slash_5
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 180
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc33e0eac1e52d410800000000000000
+      internalID: 1500365103140058061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Red-Sheet-Single-Slash_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 135
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14470252c88f717b0800000000000000
+      internalID: -5253457159502400447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Red-Sheet-Single-Slash_7
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 135
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0999d9170d6daef90800000000000000
+      internalID: -6923485286381020784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Red-Sheet-Single-Slash_8
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 135
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a1de310e0f6fdb10800000000000000
+      internalID: 2008446064771649954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Red-Sheet-Single-Slash_9
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 135
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e13b03b988b3b3d20800000000000000
+      internalID: 3259264213237936926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Red-Sheet-Single-Slash_10
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 135
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4dac6ba53a50fd10800000000000000
+      internalID: 2157323408066260300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Red-Sheet-Single-Slash_11
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 135
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c1e6a7ca4a1c8430800000000000000
+      internalID: 3786430295191249347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Red-Sheet-Single-Slash_12
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 135
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f128627f0790341f0800000000000000
+      internalID: -1061994706341821921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Red-Sheet-Single-Slash_13
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 135
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51d8c887fba7d7d50800000000000000
+      internalID: 6736675580395949333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Red-Sheet-Single-Slash_14
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 135
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44856b4a9a41deca0800000000000000
+      internalID: -5986105610860079036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Red-Sheet-Single-Slash_15
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 135
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 479700e33cada25d0800000000000000
+      internalID: -3086414062515357324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Red-Sheet-Single-Slash_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 90
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bef1419ae32cad860800000000000000
+      internalID: 7555564899247857643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Red-Sheet-Single-Slash_17
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 90
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a4bba34ad1473ea0800000000000000
+      internalID: -5893169181697002328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Red-Sheet-Single-Slash_18
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 90
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82c79e075de5a4890800000000000000
+      internalID: -7473056360852521944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Red-Sheet-Single-Slash_19
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 90
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6af6fd3969ce99e40800000000000000
+      internalID: 5663818137865252774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Red-Sheet-Single-Slash_20
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 90
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73be91e3bf50c70f0800000000000000
+      internalID: -1118012030857909449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Red-Sheet-Single-Slash_21
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 90
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f06b6d1b2b83cbd0800000000000000
+      internalID: -2611090341651324679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Red-Sheet-Single-Slash_22
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 90
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a0d8228d9c92d420800000000000000
+      internalID: 2653355330782154920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Red-Sheet-Single-Slash_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 45
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df7d9b2d8dd362a30800000000000000
+      internalID: 4190104504772450301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Red-Sheet-Single-Slash_24
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 45
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb9c0b36f67a67a10800000000000000
+      internalID: 1906895589093722555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Red-Sheet-Single-Slash_25
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 45
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae450b5b318eaebc0800000000000000
+      internalID: -3752932168109632278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Red-Sheet-Single-Slash_26
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 45
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aabd4ec9dcde8ebd0800000000000000
+      internalID: -2600567317450138710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Red-Sheet-Single-Slash_27
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 45
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72e1cc27974d4e780800000000000000
+      internalID: -8654558965817139673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Red-Sheet-Single-Slash_28
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 45
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb4645e330393d4a0800000000000000
+      internalID: -6569745789263518529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Red-Sheet-Single-Slash_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39f831939e5436f80800000000000000
+      internalID: -8114565235604222061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Red-Sheet-Single-Slash_30
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 0
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d34f3752d2fee6d0800000000000000
+      internalID: -2959160919915019305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Red-Sheet-Single-Slash_31
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 0
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d804d4228cb5ae20800000000000000
+      internalID: 3361299964051589335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Red-Sheet-Single-Slash_32
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 0
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c3d9c3e5a8580ae0800000000000000
+      internalID: -1582917799506226237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Red-Sheet-Single-Slash_33
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 0
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48c26fe1ec3f97f30800000000000000
+      internalID: 4573954963179711620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Red-Sheet-Single-Slash_34
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 0
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c770dd858eafda00800000000000000
+      internalID: 783536748818888644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Red-Sheet-Single-Slash_35
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 0
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6e2e6e9f69dfedf0800000000000000
+      internalID: -148661189257318802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 7188479ea4a984a08b1bc63cf80ebdf7
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":10.0,"y":5.0},"gridSpriteSize":{"x":54.0,"y":45.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Knight-Red-Sheet-Single-Slash_0: -8898474000835742695
+      Knight-Red-Sheet-Single-Slash_1: -4041472978285651954
+      Knight-Red-Sheet-Single-Slash_10: 2157323408066260300
+      Knight-Red-Sheet-Single-Slash_11: 3786430295191249347
+      Knight-Red-Sheet-Single-Slash_12: -1061994706341821921
+      Knight-Red-Sheet-Single-Slash_13: 6736675580395949333
+      Knight-Red-Sheet-Single-Slash_14: -5986105610860079036
+      Knight-Red-Sheet-Single-Slash_15: -3086414062515357324
+      Knight-Red-Sheet-Single-Slash_16: 7555564899247857643
+      Knight-Red-Sheet-Single-Slash_17: -5893169181697002328
+      Knight-Red-Sheet-Single-Slash_18: -7473056360852521944
+      Knight-Red-Sheet-Single-Slash_19: 5663818137865252774
+      Knight-Red-Sheet-Single-Slash_2: 8844181926497178999
+      Knight-Red-Sheet-Single-Slash_20: -1118012030857909449
+      Knight-Red-Sheet-Single-Slash_21: -2611090341651324679
+      Knight-Red-Sheet-Single-Slash_22: 2653355330782154920
+      Knight-Red-Sheet-Single-Slash_23: 4190104504772450301
+      Knight-Red-Sheet-Single-Slash_24: 1906895589093722555
+      Knight-Red-Sheet-Single-Slash_25: -3752932168109632278
+      Knight-Red-Sheet-Single-Slash_26: -2600567317450138710
+      Knight-Red-Sheet-Single-Slash_27: -8654558965817139673
+      Knight-Red-Sheet-Single-Slash_28: -6569745789263518529
+      Knight-Red-Sheet-Single-Slash_29: -8114565235604222061
+      Knight-Red-Sheet-Single-Slash_3: -4675918800120557137
+      Knight-Red-Sheet-Single-Slash_30: -2959160919915019305
+      Knight-Red-Sheet-Single-Slash_31: 3361299964051589335
+      Knight-Red-Sheet-Single-Slash_32: -1582917799506226237
+      Knight-Red-Sheet-Single-Slash_33: 4573954963179711620
+      Knight-Red-Sheet-Single-Slash_34: 783536748818888644
+      Knight-Red-Sheet-Single-Slash_35: -148661189257318802
+      Knight-Red-Sheet-Single-Slash_4: -1640113396916014565
+      Knight-Red-Sheet-Single-Slash_5: 1500365103140058061
+      Knight-Red-Sheet-Single-Slash_6: -5253457159502400447
+      Knight-Red-Sheet-Single-Slash_7: -6923485286381020784
+      Knight-Red-Sheet-Single-Slash_8: 2008446064771649954
+      Knight-Red-Sheet-Single-Slash_9: 3259264213237936926
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

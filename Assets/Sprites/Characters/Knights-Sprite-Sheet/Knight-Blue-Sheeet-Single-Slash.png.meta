@@ -1,0 +1,1055 @@
+fileFormatVersion: 2
+guid: 7af6af79bf6c534e9ab04e4ff8dda0aa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4610805916072652739
+    second: Knight-Blue-Sheeet-Single-Slash_0
+  - first:
+      213: -4778584841857668763
+    second: Knight-Blue-Sheeet-Single-Slash_1
+  - first:
+      213: -7806540754329949469
+    second: Knight-Blue-Sheeet-Single-Slash_2
+  - first:
+      213: 6701333604880439817
+    second: Knight-Blue-Sheeet-Single-Slash_3
+  - first:
+      213: 2653320145512498414
+    second: Knight-Blue-Sheeet-Single-Slash_4
+  - first:
+      213: -2134940769545281559
+    second: Knight-Blue-Sheeet-Single-Slash_5
+  - first:
+      213: -7956989557258064207
+    second: Knight-Blue-Sheeet-Single-Slash_6
+  - first:
+      213: 733620311326817709
+    second: Knight-Blue-Sheeet-Single-Slash_7
+  - first:
+      213: -7724039224958494492
+    second: Knight-Blue-Sheeet-Single-Slash_8
+  - first:
+      213: -1651526425453072207
+    second: Knight-Blue-Sheeet-Single-Slash_9
+  - first:
+      213: -240604014451530827
+    second: Knight-Blue-Sheeet-Single-Slash_10
+  - first:
+      213: 8221968432043109894
+    second: Knight-Blue-Sheeet-Single-Slash_11
+  - first:
+      213: 540890506083039367
+    second: Knight-Blue-Sheeet-Single-Slash_12
+  - first:
+      213: 7821075426662409497
+    second: Knight-Blue-Sheeet-Single-Slash_13
+  - first:
+      213: -7230457775958352389
+    second: Knight-Blue-Sheeet-Single-Slash_14
+  - first:
+      213: -4436457988502775715
+    second: Knight-Blue-Sheeet-Single-Slash_15
+  - first:
+      213: -1250504040888861272
+    second: Knight-Blue-Sheeet-Single-Slash_16
+  - first:
+      213: 9157922203485793704
+    second: Knight-Blue-Sheeet-Single-Slash_17
+  - first:
+      213: 1185375194078342333
+    second: Knight-Blue-Sheeet-Single-Slash_18
+  - first:
+      213: -5667529098147918830
+    second: Knight-Blue-Sheeet-Single-Slash_19
+  - first:
+      213: 1234755892247684988
+    second: Knight-Blue-Sheeet-Single-Slash_20
+  - first:
+      213: 6820395862886814831
+    second: Knight-Blue-Sheeet-Single-Slash_21
+  - first:
+      213: -7660341677325573378
+    second: Knight-Blue-Sheeet-Single-Slash_22
+  - first:
+      213: 2991624992349483439
+    second: Knight-Blue-Sheeet-Single-Slash_23
+  - first:
+      213: 7995319255246843484
+    second: Knight-Blue-Sheeet-Single-Slash_24
+  - first:
+      213: -8463035358780249755
+    second: Knight-Blue-Sheeet-Single-Slash_25
+  - first:
+      213: -5977293304770209319
+    second: Knight-Blue-Sheeet-Single-Slash_26
+  - first:
+      213: 7710313950794575349
+    second: Knight-Blue-Sheeet-Single-Slash_27
+  - first:
+      213: -8775485767073509654
+    second: Knight-Blue-Sheeet-Single-Slash_28
+  - first:
+      213: -5838416314526997736
+    second: Knight-Blue-Sheeet-Single-Slash_29
+  - first:
+      213: 6043830757664064923
+    second: Knight-Blue-Sheeet-Single-Slash_30
+  - first:
+      213: -4022545549729025421
+    second: Knight-Blue-Sheeet-Single-Slash_31
+  - first:
+      213: 1160991680918523117
+    second: Knight-Blue-Sheeet-Single-Slash_32
+  - first:
+      213: 1478433917062275650
+    second: Knight-Blue-Sheeet-Single-Slash_33
+  - first:
+      213: 7652299464518218795
+    second: Knight-Blue-Sheeet-Single-Slash_34
+  - first:
+      213: -2656931452721588524
+    second: Knight-Blue-Sheeet-Single-Slash_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Knight-Blue-Sheeet-Single-Slash_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 180
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d30583cc2702300c0800000000000000
+      internalID: -4610805916072652739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Blue-Sheeet-Single-Slash_1
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 180
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 569e104876e0fadb0800000000000000
+      internalID: -4778584841857668763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Blue-Sheeet-Single-Slash_2
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 180
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eaad857b8899a390800000000000000
+      internalID: -7806540754329949469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Blue-Sheeet-Single-Slash_3
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 180
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90a5940986beffc50800000000000000
+      internalID: 6701333604880439817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Blue-Sheeet-Single-Slash_4
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 180
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee409ac4d9c72d420800000000000000
+      internalID: 2653320145512498414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Blue-Sheeet-Single-Slash_5
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 180
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ef11c67eaa2f52e0800000000000000
+      internalID: -2134940769545281559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Blue-Sheeet-Single-Slash_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 135
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bee326d728139190800000000000000
+      internalID: -7956989557258064207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Blue-Sheeet-Single-Slash_7
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 135
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dad75a849c75e2a00800000000000000
+      internalID: 733620311326817709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Blue-Sheeet-Single-Slash_8
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 135
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e85a25af33bec490800000000000000
+      internalID: -7724039224958494492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Blue-Sheeet-Single-Slash_9
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 135
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b0f2b957799419e0800000000000000
+      internalID: -1651526425453072207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Blue-Sheeet-Single-Slash_10
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 135
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b365137ce339acf0800000000000000
+      internalID: -240604014451530827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Blue-Sheeet-Single-Slash_11
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 135
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60ea7622abc4a1270800000000000000
+      internalID: 8221968432043109894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Blue-Sheeet-Single-Slash_12
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 135
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 788f57dac01a18700800000000000000
+      internalID: 540890506083039367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Blue-Sheeet-Single-Slash_13
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 135
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 915efb7a9aa0a8c60800000000000000
+      internalID: 7821075426662409497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Blue-Sheeet-Single-Slash_14
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 135
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfd9a8c16f048ab90800000000000000
+      internalID: -7230457775958352389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Blue-Sheeet-Single-Slash_15
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 135
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d58195ef6f88e62c0800000000000000
+      internalID: -4436457988502775715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Blue-Sheeet-Single-Slash_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 90
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8adf0a4433155aee0800000000000000
+      internalID: -1250504040888861272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Blue-Sheeet-Single-Slash_17
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 90
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93c7df421cbfa85fc89b80d7738cdf31
+      internalID: 9157922203485793704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Blue-Sheeet-Single-Slash_18
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 90
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c26e2cd27ed8de7cbac2264fbe036bb
+      internalID: 1185375194078342333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Blue-Sheeet-Single-Slash_19
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 90
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5b64f41efc076ca4a0444cf5afb1ff5
+      internalID: -5667529098147918830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Blue-Sheeet-Single-Slash_20
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 90
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0c43fcd9e744934b92f93bcd6c07156
+      internalID: 1234755892247684988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Blue-Sheeet-Single-Slash_21
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 90
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fefb2c3217f1882c1948526ccdc8c8b1
+      internalID: 6820395862886814831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Blue-Sheeet-Single-Slash_22
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 90
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 585778d23d4967fa0a8899543260c0a3
+      internalID: -7660341677325573378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Blue-Sheeet-Single-Slash_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 45
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab7713c23eeaaf734b8fbaebc5cccc4e
+      internalID: 2991624992349483439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Blue-Sheeet-Single-Slash_24
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 45
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dbf7e341f8c881acaae7004c506b22c
+      internalID: 7995319255246843484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Blue-Sheeet-Single-Slash_25
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 45
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afa7e6eb682e64958853f6629189fdfb
+      internalID: -8463035358780249755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Blue-Sheeet-Single-Slash_26
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 45
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bc9ba273b2179c1c93af034474e3500
+      internalID: -5977293304770209319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Blue-Sheeet-Single-Slash_27
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 45
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c6a33e2f3b259a82bc6eb4b5de415b2
+      internalID: 7710313950794575349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Blue-Sheeet-Single-Slash_28
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 45
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d8e7e89924e80bb682d29cf76c041d5
+      internalID: -8775485767073509654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Blue-Sheeet-Single-Slash_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c36821afbfc17c6078af9ac61c4b3219
+      internalID: -5838416314526997736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Blue-Sheeet-Single-Slash_30
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 0
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edbf8d6e8142a27a0bd4b601d27ffc26
+      internalID: 6043830757664064923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Blue-Sheeet-Single-Slash_31
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 0
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a6f8e340201415bfbfca5ff6e93132e
+      internalID: -4022545549729025421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Blue-Sheeet-Single-Slash_32
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 0
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff68866e20f18e3f7b116ead44df371b
+      internalID: 1160991680918523117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Blue-Sheeet-Single-Slash_33
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 0
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beace831797dd20ac830eaa400e49146
+      internalID: 1478433917062275650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Blue-Sheeet-Single-Slash_34
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 0
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af905a10637faffc6ad3075f68407bb5
+      internalID: 7652299464518218795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Blue-Sheeet-Single-Slash_35
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 0
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dc34727ce63f2a628da0ce18a900bdf
+      internalID: -2656931452721588524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d38dafc97b16baa8ca7eb9cfe3aa2ed6
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":10.0,"y":5.0},"gridSpriteSize":{"x":54.0,"y":45.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Knight-Blue-Sheeet-Single-Slash_0: -4610805916072652739
+      Knight-Blue-Sheeet-Single-Slash_1: -4778584841857668763
+      Knight-Blue-Sheeet-Single-Slash_10: -240604014451530827
+      Knight-Blue-Sheeet-Single-Slash_11: 8221968432043109894
+      Knight-Blue-Sheeet-Single-Slash_12: 540890506083039367
+      Knight-Blue-Sheeet-Single-Slash_13: 7821075426662409497
+      Knight-Blue-Sheeet-Single-Slash_14: -7230457775958352389
+      Knight-Blue-Sheeet-Single-Slash_15: -4436457988502775715
+      Knight-Blue-Sheeet-Single-Slash_16: -1250504040888861272
+      Knight-Blue-Sheeet-Single-Slash_17: 9157922203485793704
+      Knight-Blue-Sheeet-Single-Slash_18: 1185375194078342333
+      Knight-Blue-Sheeet-Single-Slash_19: -5667529098147918830
+      Knight-Blue-Sheeet-Single-Slash_2: -7806540754329949469
+      Knight-Blue-Sheeet-Single-Slash_20: 1234755892247684988
+      Knight-Blue-Sheeet-Single-Slash_21: 6820395862886814831
+      Knight-Blue-Sheeet-Single-Slash_22: -7660341677325573378
+      Knight-Blue-Sheeet-Single-Slash_23: 2991624992349483439
+      Knight-Blue-Sheeet-Single-Slash_24: 7995319255246843484
+      Knight-Blue-Sheeet-Single-Slash_25: -8463035358780249755
+      Knight-Blue-Sheeet-Single-Slash_26: -5977293304770209319
+      Knight-Blue-Sheeet-Single-Slash_27: 7710313950794575349
+      Knight-Blue-Sheeet-Single-Slash_28: -8775485767073509654
+      Knight-Blue-Sheeet-Single-Slash_29: -5838416314526997736
+      Knight-Blue-Sheeet-Single-Slash_3: 6701333604880439817
+      Knight-Blue-Sheeet-Single-Slash_30: 6043830757664064923
+      Knight-Blue-Sheeet-Single-Slash_31: -4022545549729025421
+      Knight-Blue-Sheeet-Single-Slash_32: 1160991680918523117
+      Knight-Blue-Sheeet-Single-Slash_33: 1478433917062275650
+      Knight-Blue-Sheeet-Single-Slash_34: 7652299464518218795
+      Knight-Blue-Sheeet-Single-Slash_35: -2656931452721588524
+      Knight-Blue-Sheeet-Single-Slash_4: 2653320145512498414
+      Knight-Blue-Sheeet-Single-Slash_5: -2134940769545281559
+      Knight-Blue-Sheeet-Single-Slash_6: -7956989557258064207
+      Knight-Blue-Sheeet-Single-Slash_7: 733620311326817709
+      Knight-Blue-Sheeet-Single-Slash_8: -7724039224958494492
+      Knight-Blue-Sheeet-Single-Slash_9: -1651526425453072207
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

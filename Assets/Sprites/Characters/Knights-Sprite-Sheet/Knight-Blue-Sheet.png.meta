@@ -1,0 +1,1185 @@
+fileFormatVersion: 2
+guid: e3819cee2091184a8b7fce07f4ab6fc8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 685436819491607360
+    second: Knight-Blue-Sheet_0
+  - first:
+      213: -1965074986281651981
+    second: Knight-Blue-Sheet_1
+  - first:
+      213: 419620334815018848
+    second: Knight-Blue-Sheet_2
+  - first:
+      213: -7590214559826309566
+    second: Knight-Blue-Sheet_3
+  - first:
+      213: -769044018566757547
+    second: Knight-Blue-Sheet_4
+  - first:
+      213: -6106825861932154628
+    second: Knight-Blue-Sheet_5
+  - first:
+      213: -141125834131302238
+    second: Knight-Blue-Sheet_6
+  - first:
+      213: 2243824536941205276
+    second: Knight-Blue-Sheet_7
+  - first:
+      213: 7872639577343137296
+    second: Knight-Blue-Sheet_8
+  - first:
+      213: -1223956301174637947
+    second: Knight-Blue-Sheet_9
+  - first:
+      213: 1843393181142210944
+    second: Knight-Blue-Sheet_10
+  - first:
+      213: 8465602667557673094
+    second: Knight-Blue-Sheet_11
+  - first:
+      213: -7915703310996343358
+    second: Knight-Blue-Sheet_12
+  - first:
+      213: -6728848814170950290
+    second: Knight-Blue-Sheet_13
+  - first:
+      213: 1275687325044171385
+    second: Knight-Blue-Sheet_14
+  - first:
+      213: -2079113090846868816
+    second: Knight-Blue-Sheet_15
+  - first:
+      213: 1965696515415516909
+    second: Knight-Blue-Sheet_16
+  - first:
+      213: 1116286577703423485
+    second: Knight-Blue-Sheet_17
+  - first:
+      213: -3963146840923125154
+    second: Knight-Blue-Sheet_18
+  - first:
+      213: -3576553543093384243
+    second: Knight-Blue-Sheet_19
+  - first:
+      213: -9104105672045666221
+    second: Knight-Blue-Sheet_20
+  - first:
+      213: 6192607707694933625
+    second: Knight-Blue-Sheet_21
+  - first:
+      213: -1609562494507634792
+    second: Knight-Blue-Sheet_22
+  - first:
+      213: 4053775280865042711
+    second: Knight-Blue-Sheet_23
+  - first:
+      213: 7176505890655535399
+    second: Knight-Blue-Sheet_24
+  - first:
+      213: 8874130161253747720
+    second: Knight-Blue-Sheet_25
+  - first:
+      213: -7962389931453756085
+    second: Knight-Blue-Sheet_26
+  - first:
+      213: 7997055680084655703
+    second: Knight-Blue-Sheet_27
+  - first:
+      213: -3410614358084384432
+    second: Knight-Blue-Sheet_28
+  - first:
+      213: -1190805226623885465
+    second: Knight-Blue-Sheet_29
+  - first:
+      213: 5912151433298777047
+    second: Knight-Blue-Sheet_30
+  - first:
+      213: 1119659255099564297
+    second: Knight-Blue-Sheet_31
+  - first:
+      213: -1550012008307085101
+    second: Knight-Blue-Sheet_32
+  - first:
+      213: 5998773190862156672
+    second: Knight-Blue-Sheet_33
+  - first:
+      213: 4479268054317701380
+    second: Knight-Blue-Sheet_34
+  - first:
+      213: -5492515029801122272
+    second: Knight-Blue-Sheet_35
+  - first:
+      213: -8020833889444090651
+    second: Knight-Blue-Sheet_36
+  - first:
+      213: 8009722079084509449
+    second: Knight-Blue-Sheet_37
+  - first:
+      213: 265836391709720343
+    second: Knight-Blue-Sheet_38
+  - first:
+      213: 4939152321163701746
+    second: Knight-Blue-Sheet_39
+  - first:
+      213: -7199548201580785556
+    second: Knight-Blue-Sheet_40
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Knight-Blue-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 180
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04355cdd729238900800000000000000
+      internalID: 685436819491607360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Blue-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 180
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f03dad16b6aab4e0800000000000000
+      internalID: -1965074986281651981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Blue-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 180
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06ffd25a87ac2d500800000000000000
+      internalID: 419620334815018848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Blue-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 180
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24e0e8092142aa690800000000000000
+      internalID: -7590214559826309566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Blue-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 180
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55380b82a8ec355f0800000000000000
+      internalID: -769044018566757547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Blue-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 180
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf08d52eb32304ba0800000000000000
+      internalID: -6106825861932154628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Blue-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 135
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a819f33dce9a0ef0800000000000000
+      internalID: -141125834131302238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Blue-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 135
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c179fae278aa32f10800000000000000
+      internalID: 2243824536941205276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Blue-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 135
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 016183c0cfb314d60800000000000000
+      internalID: 7872639577343137296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Blue-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 135
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58a72e79a32a30fe0800000000000000
+      internalID: -1223956301174637947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Blue-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 135
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 089db5fd45c059910800000000000000
+      internalID: 1843393181142210944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Blue-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 135
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 688df5106ccdb7570800000000000000
+      internalID: 8465602667557673094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Blue-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 135
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c5fda027c5c52290800000000000000
+      internalID: -7915703310996343358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Blue-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 135
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e65380c87a35e92a0800000000000000
+      internalID: -6728848814170950290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Blue-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 135
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 972e9bdfcd624b110800000000000000
+      internalID: 1275687325044171385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Blue-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 135
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ba3534d8a18523e0800000000000000
+      internalID: -2079113090846868816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Blue-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 90
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de6a099e09e874b10800000000000000
+      internalID: 1965696515415516909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Blue-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 90
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfd8c836ab8dd7f00800000000000000
+      internalID: 1116286577703423485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Blue-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 90
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5ac01222f21009c0800000000000000
+      internalID: -3963146840923125154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Blue-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 90
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcb01cf70878d5ec0800000000000000
+      internalID: -3576553543093384243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Blue-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 90
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 350691c7028b7a180800000000000000
+      internalID: -9104105672045666221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Blue-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 90
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 976a08a76ef80f550800000000000000
+      internalID: 6192607707694933625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Blue-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 90
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89fa417607fa9a9e0800000000000000
+      internalID: -1609562494507634792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Blue-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 90
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 711683fd327e14830800000000000000
+      internalID: 4053775280865042711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Blue-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 90
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7218505b512189360800000000000000
+      internalID: 7176505890655535399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Blue-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 90
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80c0c105d5e372b70800000000000000
+      internalID: 8874130161253747720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Blue-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 90
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4d4d8c3b88ef7190800000000000000
+      internalID: -7962389931453756085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Blue-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 90
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75e377455cf3bfe60800000000000000
+      internalID: 7997055680084655703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Blue-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 45
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0598880cf401ba0d0800000000000000
+      internalID: -3410614358084384432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Blue-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 45
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76f976e94f8697fe0800000000000000
+      internalID: -1190805226623885465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Blue-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 45
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d31718976e2c0250800000000000000
+      internalID: 5912151433298777047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Blue-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 45
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90120b90924d98f00800000000000000
+      internalID: 1119659255099564297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Blue-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 45
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d0344f6a404d7ae0800000000000000
+      internalID: -1550012008307085101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Blue-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 45
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 083b9792f6cef3350800000000000000
+      internalID: 5998773190862156672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Blue-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4099c5f209e892e30800000000000000
+      internalID: 4479268054317701380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Blue-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 0
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 026c5355eaaa6c3b0800000000000000
+      internalID: -5492515029801122272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Blue-Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 0
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ec2541e21640b090800000000000000
+      internalID: -8020833889444090651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Blue-Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 0
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9097f692bcf382f60800000000000000
+      internalID: 8009722079084509449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Blue-Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 0
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71fba303ac070b300800000000000000
+      internalID: 265836391709720343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Blue-Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 0
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fd228a0ed46b8440800000000000000
+      internalID: 4939152321163701746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-Blue-Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 0
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6099753e01161c90800000000000000
+      internalID: -7199548201580785556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 51d3f4e5e33f29b3fa58b02e9365034f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":12.0,"y":5.0},"gridSpriteSize":{"x":54.0,"y":45.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Knight-Blue-Sheet_0: 685436819491607360
+      Knight-Blue-Sheet_1: -1965074986281651981
+      Knight-Blue-Sheet_10: 1843393181142210944
+      Knight-Blue-Sheet_11: 8465602667557673094
+      Knight-Blue-Sheet_12: -7915703310996343358
+      Knight-Blue-Sheet_13: -6728848814170950290
+      Knight-Blue-Sheet_14: 1275687325044171385
+      Knight-Blue-Sheet_15: -2079113090846868816
+      Knight-Blue-Sheet_16: 1965696515415516909
+      Knight-Blue-Sheet_17: 1116286577703423485
+      Knight-Blue-Sheet_18: -3963146840923125154
+      Knight-Blue-Sheet_19: -3576553543093384243
+      Knight-Blue-Sheet_2: 419620334815018848
+      Knight-Blue-Sheet_20: -9104105672045666221
+      Knight-Blue-Sheet_21: 6192607707694933625
+      Knight-Blue-Sheet_22: -1609562494507634792
+      Knight-Blue-Sheet_23: 4053775280865042711
+      Knight-Blue-Sheet_24: 7176505890655535399
+      Knight-Blue-Sheet_25: 8874130161253747720
+      Knight-Blue-Sheet_26: -7962389931453756085
+      Knight-Blue-Sheet_27: 7997055680084655703
+      Knight-Blue-Sheet_28: -3410614358084384432
+      Knight-Blue-Sheet_29: -1190805226623885465
+      Knight-Blue-Sheet_3: -7590214559826309566
+      Knight-Blue-Sheet_30: 5912151433298777047
+      Knight-Blue-Sheet_31: 1119659255099564297
+      Knight-Blue-Sheet_32: -1550012008307085101
+      Knight-Blue-Sheet_33: 5998773190862156672
+      Knight-Blue-Sheet_34: 4479268054317701380
+      Knight-Blue-Sheet_35: -5492515029801122272
+      Knight-Blue-Sheet_36: -8020833889444090651
+      Knight-Blue-Sheet_37: 8009722079084509449
+      Knight-Blue-Sheet_38: 265836391709720343
+      Knight-Blue-Sheet_39: 4939152321163701746
+      Knight-Blue-Sheet_4: -769044018566757547
+      Knight-Blue-Sheet_40: -7199548201580785556
+      Knight-Blue-Sheet_5: -6106825861932154628
+      Knight-Blue-Sheet_6: -141125834131302238
+      Knight-Blue-Sheet_7: 2243824536941205276
+      Knight-Blue-Sheet_8: 7872639577343137296
+      Knight-Blue-Sheet_9: -1223956301174637947
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

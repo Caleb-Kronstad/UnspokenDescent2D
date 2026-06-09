@@ -5,23 +5,25 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    private int max_health = 100;
-    private int health;
-    private float max_stamina = 100;
+    [Header("Stats")]
+    private float max_health = 100;
+    private float health;
+    private float max_stamina = 100.0f;
     private float stamina;
 
-    [SerializeField] private GameObject health_bar_bg;
     [SerializeField] private GameObject health_bar;
+    [SerializeField] private GameObject stamina_bar;
 
     private bool can_regen_stamina = true;
-    private float regen_stamina_cooldown = 1.0f;
-    private float regen_stamina_rate = 1.0f;
+    [SerializeField] private float regen_stamina_cooldown = 1.0f;
+    [SerializeField] private float regen_stamina_rate = 5.0f;
     private Coroutine regen_stamina_coroutine;
 
+    [Header("Camera")]
     [SerializeField] private Camera player_camera;
     private PlayerData player_data;
-    private float camera_speed = 2f;
-    private float camera_distance = -15f;
+    [SerializeField] private float camera_speed = 2.0f;
+    [SerializeField] private float camera_distance = -15.0f;
 
     private PlayerControls controls;
     private Rigidbody2D rigid_body;
@@ -29,24 +31,28 @@ public class PlayerController : MonoBehaviour
 
     private float scale;
 
+    [Header("Movement")]
+    [SerializeField] private float move_multiplier = 250.0f;
+    [SerializeField] private float jump_multiplier = 750.0f;
     private Vector2 move_vector;
-    private float move_multiplier = 150;
-    private float jump_multiplier = 750f;
-    private bool jumping = false;
     private int direction = 1;
+    private bool jumping = false;
 
     private string swing_id = "none";
     private bool swinging = false;
     private bool swinging_twice = false;
     private bool queue_swing = false;
+    private float swing_stamina_cost = 10.0f;
     private float queue_timer = 0.5f;
     private Coroutine queue_coroutine;
+    private bool can_deal_damage;
 
     private bool dashing = false;
-    private float dash_multiplier = 1.0f;
-    private float dash_mass = 0.1f;
-    private float original_mass;
-    private int dash_cost = 20;
+    [SerializeField] private float dash_multiplier = 20.0f;
+    [SerializeField] private float dash_stamina_cost = 20;
+
+    [SerializeField] private LayerMask ground_layer;
+    [SerializeField] private float ray_distance = 1.0f;
 
     void OnEnable()
     {
@@ -69,18 +75,25 @@ public class PlayerController : MonoBehaviour
         rigid_body = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
 
-        original_mass = rigid_body.mass;
+        health = max_health;
+        stamina = max_stamina;
+        can_regen_stamina = true;
     }
 
     void Update()
     {
         move_vector = controls.Land.Move.ReadValue<Vector2>();
-        if (controls.Land.Jump.triggered && !jumping)
+        bool touching_solid_ground = TouchingSolidGround();
+        if (jumping && touching_solid_ground)
         {
-            //jumping = true;
-            ReceiveDamage(10);
+            jumping = false;
+            animator.SetTrigger("EndJump");
         }
 
+        if (controls.Land.Jump.triggered)
+        {
+            Jump(touching_solid_ground);
+        }
         if (controls.Land.Attack.triggered)
         {
             SwordSwing();
@@ -107,7 +120,7 @@ public class PlayerController : MonoBehaviour
             rigid_body.linearVelocity = new Vector2(move_vector.x, rigid_body.linearVelocity.y);
         }
 
-        if (move_vector != Vector2.zero)
+        if (move_vector.x != 0f)
         {
             animator.SetBool("Walking", true);
         }
@@ -126,7 +139,7 @@ public class PlayerController : MonoBehaviour
         {
             health = 0;
         }
-        health_bar.GetComponent<RectTransform>().sizeDelta = new Vector2(10 * health, health_bar.GetComponent<RectTransform>().sizeDelta.y);
+        UpdateHealthBar();
     }
     public void ReceiveHealing(int amount)
     {
@@ -135,34 +148,47 @@ public class PlayerController : MonoBehaviour
         {
             health = max_health;
         }
+        UpdateHealthBar();
+    }
+    public void UpdateHealthBar()
+    {
         health_bar.GetComponent<RectTransform>().sizeDelta = new Vector2(10 * health, health_bar.GetComponent<RectTransform>().sizeDelta.y);
     }
 
-    public void UseStamina(int amount)
+    public void UseStamina(float amount)
     {
         stamina -= amount;
-        if (stamina <= 0)
-        {
-            can_regen_stamina = false;
-            regen_stamina_coroutine = StartCoroutine(RegenStaminaTimer(regen_stamina_cooldown));
-        }
+        // if (stamina <= 0)
+        // {
+        //     regen_stamina_coroutine = StartCoroutine(RegenStaminaTimer(regen_stamina_cooldown));
+        // }
+        regen_stamina_coroutine = StartCoroutine(RegenStaminaTimer(regen_stamina_cooldown));
+        UpdateStaminaBar();
     }
     public void RegenStamina()
     {
         if (!can_regen_stamina) return;
         stamina += regen_stamina_rate * Time.deltaTime;
-        stamina = Mathf.Floor(stamina);
         if (stamina >= max_stamina)
             stamina = max_stamina;
+        UpdateStaminaBar();
+    }
+    public void UpdateStaminaBar()
+    {
+        float display = Mathf.Floor(stamina);
+        stamina_bar.GetComponent<RectTransform>().sizeDelta = new Vector2(10 * display, stamina_bar.GetComponent<RectTransform>().sizeDelta.y);
     }
 
-    public void Jump()
+    public void Jump(bool touching_solid_ground)
     {
-        if (jumping)
-        {
-            jumping = false;
-            rigid_body.AddForceY(jump_multiplier, ForceMode2D.Force);
-        }
+        if (!touching_solid_ground) return;
+        animator.SetTrigger("Jump");
+        rigid_body.AddForceY(jump_multiplier, ForceMode2D.Force);
+    }
+
+    public void JumpingTrue()
+    {
+        jumping = true;
     }
 
     public void SwordSwing()
@@ -172,11 +198,12 @@ public class PlayerController : MonoBehaviour
             queue_swing = true;
             queue_coroutine = StartCoroutine(QueueTimer(queue_timer));
         }
-        else if (!swinging)
+        else if (!swinging && stamina > 0)
         {
             swinging = true;
             swing_id = Guid.NewGuid().ToString();
             animator.SetTrigger("Swing1");
+            UseStamina(swing_stamina_cost);
         }
     }
 
@@ -191,9 +218,19 @@ public class PlayerController : MonoBehaviour
         if (queue_swing)
         {
             queue_swing = false;
-            swinging_twice = true;
-            swing_id = Guid.NewGuid().ToString();
-            animator.SetTrigger("Swing2");
+            if (stamina > 0)
+            {
+                swinging_twice = true;
+                swing_id = Guid.NewGuid().ToString();
+                animator.SetTrigger("Swing2");
+                UseStamina(swing_stamina_cost);
+            }
+            else
+            {
+                swinging = false;
+                swinging_twice = false;
+                animator.SetTrigger("EndSwing");
+            }
         }
         else
         {
@@ -205,11 +242,10 @@ public class PlayerController : MonoBehaviour
 
     public void Dash()
     {
-        if (dashing || !(stamina > 0)) return;
+        if (dashing || stamina <= 0) return;
         dashing = true;
-        UseStamina(dash_cost);
+        UseStamina(dash_stamina_cost);
         animator.SetTrigger("Dash");
-        rigid_body.mass = dash_mass;
         rigid_body.AddForceX(dash_multiplier * direction, ForceMode2D.Impulse);
     }
 
@@ -217,7 +253,15 @@ public class PlayerController : MonoBehaviour
     {
         dashing = false;
         animator.SetTrigger("EndDash");
-        rigid_body.mass = original_mass;
+    }
+
+    public bool TouchingSolidGround()
+    {
+        RaycastHit2D hit = Physics2D.Raycast(this.transform.position, Vector2.down, ray_distance, ground_layer);
+        if (hit.collider != null && hit.collider.CompareTag("SolidGround"))
+            return true;
+        else
+            return false;
     }
 
     public void OnRelayCollisionEnter(Collision2D collision, string tag)
@@ -235,16 +279,25 @@ public class PlayerController : MonoBehaviour
     }
     public void OnRelayTriggerStay(Collider2D collision, string tag)
     {
-        if (tag == "PlayerHitbox" && swinging)
+        if (can_deal_damage && tag == "PlayerHitbox" && swinging)
         {
             if (collision.transform.tag == "DummyEnemy")
             {
-                collision.transform.GetComponent<DummyController>().TakeDamage(player_data.GetEquippedWeapon().GetDamage(), swing_id);
+                collision.transform.GetComponent<DummyController>().ReceiveDamage(player_data.GetEquippedWeapon().GetDamage(), swing_id);
             }
         }
     }
     public void OnRelayTriggerExit(Collider2D collision, string tag)
     {
+    }
+
+    public void CanDealDamageTrue()
+    {
+        can_deal_damage = true;
+    }
+    public void CanDealDamageFalse()
+    {
+        can_deal_damage = false;
     }
 
     private IEnumerator QueueTimer(float seconds)
@@ -255,6 +308,7 @@ public class PlayerController : MonoBehaviour
 
     private IEnumerator RegenStaminaTimer(float seconds)
     {
+        can_regen_stamina = false;
         yield return new WaitForSeconds(seconds);
         can_regen_stamina = true;
     }

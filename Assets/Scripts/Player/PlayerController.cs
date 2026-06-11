@@ -258,6 +258,7 @@ public class PlayerController : MonoBehaviour
     public bool TouchingSolidGround()
     {
         RaycastHit2D hit = Physics2D.Raycast(this.transform.position, Vector2.down, ray_distance, ground_layer);
+        Debug.DrawRay(transform.position, Vector2.down * ray_distance, Color.red);
         if (hit.collider != null && hit.collider.CompareTag("SolidGround"))
             return true;
         else

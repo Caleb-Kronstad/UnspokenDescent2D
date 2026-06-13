@@ -45,7 +45,8 @@ public class PlayerController : MonoBehaviour
     private float swing_stamina_cost = 10.0f;
     private float queue_timer = 0.5f;
     private Coroutine queue_coroutine;
-    private bool can_deal_damage;
+    private bool can_deal_damage = false;
+    private List<string> damaged_by_ids = new List<string>();
 
     private bool dashing = false;
     [SerializeField] private float dash_multiplier = 20.0f;
@@ -53,6 +54,10 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField] private LayerMask ground_layer;
     [SerializeField] private float ray_distance = 1.0f;
+
+    private bool dead = false;
+    [SerializeField] private float death_time = 5.0f;
+    private Coroutine death_coroutine;
 
     void OnEnable()
     {
@@ -82,12 +87,21 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
+        if (dead) return;
+
         move_vector = controls.Land.Move.ReadValue<Vector2>();
         bool touching_solid_ground = TouchingSolidGround();
+
         if (jumping && touching_solid_ground)
         {
             jumping = false;
             animator.SetTrigger("EndJump");
+        }
+
+        // purely for debug testing
+        if (controls.Land.Debug.triggered)
+        {
+            ReceiveDamage(10, Guid.NewGuid().ToString());
         }
 
         if (controls.Land.Jump.triggered)
@@ -108,6 +122,10 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate()
     {
+        player_camera.transform.position = Vector3.Lerp(player_camera.transform.position, new Vector3(this.transform.position.x, 0, camera_distance), Time.fixedDeltaTime * camera_speed);
+
+        if (dead) return;
+
         move_vector *= move_multiplier * Time.fixedDeltaTime;
         if (move_vector.x > 0)
             direction = 1;
@@ -128,20 +146,26 @@ public class PlayerController : MonoBehaviour
         {
             animator.SetBool("Walking", false);
         }
-
-        player_camera.transform.position = Vector3.Lerp(player_camera.transform.position, new Vector3(this.transform.position.x, 0, camera_distance), Time.fixedDeltaTime * camera_speed);
     }
 
-    public void ReceiveDamage(int amount)
+    public void ReceiveDamage(float amount, string damaged_by_id)
     {
+        if (damaged_by_ids.Contains(damaged_by_id)) return;
+        damaged_by_ids.Add(damaged_by_id);
+
         health -= amount;
-        if (health <= 0)
+        if (health <= 0 && !dead)
         {
             health = 0;
+            dead = true;
+            rigid_body.linearVelocity = Vector2.zero;
+            animator.SetTrigger("Death");
+            death_coroutine = StartCoroutine(DeathTimer(death_time));
+            damaged_by_ids.Clear();
         }
         UpdateHealthBar();
     }
-    public void ReceiveHealing(int amount)
+    public void ReceiveHealing(float amount)
     {
         health += amount;
         if (health > max_health)
@@ -243,6 +267,7 @@ public class PlayerController : MonoBehaviour
     public void Dash()
     {
         if (dashing || stamina <= 0) return;
+        if (!TouchingSolidGround()) return;
         dashing = true;
         UseStamina(dash_stamina_cost);
         animator.SetTrigger("Dash");
@@ -277,19 +302,26 @@ public class PlayerController : MonoBehaviour
 
     public void OnRelayTriggerEnter(Collider2D collision, string tag)
     {
+        OnRelayTrigger(collision, tag);
     }
     public void OnRelayTriggerStay(Collider2D collision, string tag)
     {
+        OnRelayTrigger(collision, tag);
+    }
+    public void OnRelayTriggerExit(Collider2D collision, string tag)
+    {
+        OnRelayTrigger(collision, tag);
+    }
+
+    public void OnRelayTrigger(Collider2D collision, string tag)
+    {
         if (can_deal_damage && tag == "PlayerHitbox" && swinging)
         {
-            if (collision.transform.tag == "DummyEnemy")
+            if (collision.transform.tag == "Enemy")
             {
                 collision.transform.GetComponent<DummyController>().ReceiveDamage(player_data.GetEquippedWeapon().GetDamage(), swing_id);
             }
         }
-    }
-    public void OnRelayTriggerExit(Collider2D collision, string tag)
-    {
     }
 
     public void CanDealDamageTrue()
@@ -299,6 +331,28 @@ public class PlayerController : MonoBehaviour
     public void CanDealDamageFalse()
     {
         can_deal_damage = false;
+    }
+
+    public void DeathAnimationChange()
+    {
+        animator.SetTrigger("Dead");
+    }
+
+    private IEnumerator DeathTimer(float seconds)
+    {
+        yield return new WaitForSeconds(seconds);
+        animator.SetTrigger("Revive");
+        dead = false;
+        health = max_health;
+        UpdateHealthBar();
+
+        dashing = false;
+        jumping = false;
+        swinging = false;
+        swinging_twice = false;
+        queue_swing = false;
+        can_deal_damage = false;
+        swing_id = "";
     }
 
     private IEnumerator QueueTimer(float seconds)

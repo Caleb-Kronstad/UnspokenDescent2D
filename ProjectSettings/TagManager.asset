@@ -4,9 +4,10 @@
 TagManager:
   serializedVersion: 3
   tags:
-  - DummyEnemy
   - PlayerHitbox
   - SolidGround
+  - Enemy
+  - EnemyHitbox
   layers:
   - Default
   - TransparentFX

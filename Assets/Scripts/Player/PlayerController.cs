@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -24,6 +25,8 @@ public class PlayerController : MonoBehaviour
     private PlayerData player_data;
     [SerializeField] private float camera_speed = 2.0f;
     [SerializeField] private float camera_distance = -15.0f;
+    [SerializeField] private float camera_vertical_focus = 0.15f;
+    private float camera_target_y = 0f;
 
     private PlayerControls controls;
     private Rigidbody2D rigid_body;
@@ -58,6 +61,11 @@ public class PlayerController : MonoBehaviour
     private bool dead = false;
     [SerializeField] private float death_time = 5.0f;
     private Coroutine death_coroutine;
+
+    private Transform locked_target = null;
+    private bool target_locked = false;
+
+    [SerializeField] private GameObject pause_menu;
 
     void OnEnable()
     {
@@ -101,9 +109,22 @@ public class PlayerController : MonoBehaviour
         // purely for debug testing
         if (controls.Land.Debug.triggered)
         {
-            ReceiveDamage(10, Guid.NewGuid().ToString());
+            //ReceiveDamage(10, Guid.NewGuid().ToString());
         }
 
+        if (controls.Land.Pause.triggered)
+        {
+            if (!pause_menu.activeInHierarchy)
+            {
+                pause_menu.SetActive(true);
+                Time.timeScale = 0f;
+            }
+            else
+            {
+                pause_menu.SetActive(false);
+                Time.timeScale = 1f;
+            }
+        }
         if (controls.Land.Jump.triggered)
         {
             Jump(touching_solid_ground);
@@ -116,21 +137,37 @@ public class PlayerController : MonoBehaviour
         {
             Dash();
         }
+        if (controls.Land.Focus.triggered)
+        {
+            ToggleTargetLock();
+        }
 
         RegenStamina();
     }
 
     void FixedUpdate()
     {
-        player_camera.transform.position = Vector3.Lerp(player_camera.transform.position, new Vector3(this.transform.position.x, 0, camera_distance), Time.fixedDeltaTime * camera_speed);
+        Vector3 viewport_pos = player_camera.WorldToViewportPoint(this.transform.position);
+        if (viewport_pos.y < 0f || viewport_pos.y > 1f)
+            camera_target_y = this.transform.position.y + player_camera.orthographicSize * (1f - 2f * camera_vertical_focus);
+
+        player_camera.transform.position = Vector3.Lerp(player_camera.transform.position, new Vector3(this.transform.position.x, camera_target_y, camera_distance), Time.fixedDeltaTime * camera_speed);
 
         if (dead) return;
 
         move_vector *= move_multiplier * Time.fixedDeltaTime;
-        if (move_vector.x > 0)
-            direction = 1;
-        else if (move_vector.x < 0)
-            direction = -1;
+
+        if (target_locked && locked_target != null)
+        {
+            direction = locked_target.position.x >= this.transform.position.x ? 1 : -1;
+        }
+        else
+        {
+            if (move_vector.x > 0)
+                direction = 1;
+            else if (move_vector.x < 0)
+                direction = -1;
+        }
 
         if (!dashing)
         {
@@ -139,17 +176,14 @@ public class PlayerController : MonoBehaviour
         }
 
         if (move_vector.x != 0f)
-        {
             animator.SetBool("Walking", true);
-        }
         else
-        {
             animator.SetBool("Walking", false);
-        }
     }
 
     public void ReceiveDamage(float amount, string damaged_by_id)
     {
+        if (dashing) return;
         if (damaged_by_ids.Contains(damaged_by_id)) return;
         damaged_by_ids.Add(damaged_by_id);
 
@@ -217,6 +251,7 @@ public class PlayerController : MonoBehaviour
 
     public void SwordSwing()
     {
+        if (jumping) return;
         if (swinging && !queue_swing && !swinging_twice)
         {
             queue_swing = true;
@@ -269,6 +304,21 @@ public class PlayerController : MonoBehaviour
         if (dashing || stamina <= 0) return;
         if (!TouchingSolidGround()) return;
         dashing = true;
+
+        if (swinging || swinging_twice || queue_swing)
+        {
+            if (queue_coroutine != null)
+            {
+                StopCoroutine(queue_coroutine);
+                queue_coroutine = null;
+            }
+            swinging = false;
+            swinging_twice = false;
+            queue_swing = false;
+            can_deal_damage = false;
+            animator.SetTrigger("EndSwing");
+        }
+
         UseStamina(dash_stamina_cost);
         animator.SetTrigger("Dash");
         rigid_body.AddForceX(dash_multiplier * direction, ForceMode2D.Impulse);
@@ -324,6 +374,43 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    private void ToggleTargetLock()
+    {
+        if (target_locked)
+        {
+            target_locked = false;
+            locked_target = null;
+            return;
+        }
+
+        GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
+        if (enemies.Length == 0) return;
+
+        Transform nearest = null;
+        float nearest_dist = float.MaxValue;
+        foreach (GameObject enemy in enemies)
+        {
+            float dist = Vector2.Distance(this.transform.position, enemy.transform.position);
+            if (dist < nearest_dist)
+            {
+                nearest_dist = dist;
+                nearest = enemy.transform;
+            }
+        }
+
+        locked_target = nearest;
+        target_locked = true;
+    }
+
+    public void NotifyTargetDeath(Transform dead_target)
+    {
+        if (locked_target == dead_target)
+        {
+            target_locked = false;
+            locked_target = null;
+        }
+    }
+
     public void CanDealDamageTrue()
     {
         can_deal_damage = true;
@@ -341,18 +428,7 @@ public class PlayerController : MonoBehaviour
     private IEnumerator DeathTimer(float seconds)
     {
         yield return new WaitForSeconds(seconds);
-        animator.SetTrigger("Revive");
-        dead = false;
-        health = max_health;
-        UpdateHealthBar();
-
-        dashing = false;
-        jumping = false;
-        swinging = false;
-        swinging_twice = false;
-        queue_swing = false;
-        can_deal_damage = false;
-        swing_id = "";
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     private IEnumerator QueueTimer(float seconds)

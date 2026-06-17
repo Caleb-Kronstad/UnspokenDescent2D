@@ -136,6 +136,42 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Focus"",
+                    ""type"": ""Button"",
+                    ""id"": ""eb235bdd-612e-46fe-8963-fd559dabf109"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Interact"",
+                    ""type"": ""Button"",
+                    ""id"": ""0d6cbb3b-7c44-405f-824f-b8038aaf90d4"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Inventory"",
+                    ""type"": ""Button"",
+                    ""id"": ""3d4867e2-d5b0-42a8-9b85-fb503c3ed758"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Pause"",
+                    ""type"": ""Button"",
+                    ""id"": ""6ba76935-aa83-446e-bce4-22f553463a82"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -237,6 +273,50 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
                     ""action"": ""Debug"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""dd3c291e-48f8-46c2-9a94-3475a3b84b35"",
+                    ""path"": ""<Keyboard>/r"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Focus"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""526e3921-b917-497b-916c-126fef8cda32"",
+                    ""path"": ""<Keyboard>/f"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Interact"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""369e09db-8305-450f-bd16-1e65bb10f663"",
+                    ""path"": ""<Keyboard>/tab"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Inventory"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""e1513667-0e78-4590-86dd-a8a6c694ea3d"",
+                    ""path"": ""<Keyboard>/escape"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Pause"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -256,6 +336,10 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
         m_Land_Attack = m_Land.FindAction("Attack", throwIfNotFound: true);
         m_Land_Dash = m_Land.FindAction("Dash", throwIfNotFound: true);
         m_Land_Debug = m_Land.FindAction("Debug", throwIfNotFound: true);
+        m_Land_Focus = m_Land.FindAction("Focus", throwIfNotFound: true);
+        m_Land_Interact = m_Land.FindAction("Interact", throwIfNotFound: true);
+        m_Land_Inventory = m_Land.FindAction("Inventory", throwIfNotFound: true);
+        m_Land_Pause = m_Land.FindAction("Pause", throwIfNotFound: true);
     }
 
     ~@PlayerControls()
@@ -341,6 +425,10 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
     private readonly InputAction m_Land_Attack;
     private readonly InputAction m_Land_Dash;
     private readonly InputAction m_Land_Debug;
+    private readonly InputAction m_Land_Focus;
+    private readonly InputAction m_Land_Interact;
+    private readonly InputAction m_Land_Inventory;
+    private readonly InputAction m_Land_Pause;
     /// <summary>
     /// Provides access to input actions defined in input action map "Land".
     /// </summary>
@@ -372,6 +460,22 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
         /// Provides access to the underlying input action "Land/Debug".
         /// </summary>
         public InputAction @Debug => m_Wrapper.m_Land_Debug;
+        /// <summary>
+        /// Provides access to the underlying input action "Land/Focus".
+        /// </summary>
+        public InputAction @Focus => m_Wrapper.m_Land_Focus;
+        /// <summary>
+        /// Provides access to the underlying input action "Land/Interact".
+        /// </summary>
+        public InputAction @Interact => m_Wrapper.m_Land_Interact;
+        /// <summary>
+        /// Provides access to the underlying input action "Land/Inventory".
+        /// </summary>
+        public InputAction @Inventory => m_Wrapper.m_Land_Inventory;
+        /// <summary>
+        /// Provides access to the underlying input action "Land/Pause".
+        /// </summary>
+        public InputAction @Pause => m_Wrapper.m_Land_Pause;
         /// <summary>
         /// Provides access to the underlying input action map instance.
         /// </summary>
@@ -413,6 +517,18 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
             @Debug.started += instance.OnDebug;
             @Debug.performed += instance.OnDebug;
             @Debug.canceled += instance.OnDebug;
+            @Focus.started += instance.OnFocus;
+            @Focus.performed += instance.OnFocus;
+            @Focus.canceled += instance.OnFocus;
+            @Interact.started += instance.OnInteract;
+            @Interact.performed += instance.OnInteract;
+            @Interact.canceled += instance.OnInteract;
+            @Inventory.started += instance.OnInventory;
+            @Inventory.performed += instance.OnInventory;
+            @Inventory.canceled += instance.OnInventory;
+            @Pause.started += instance.OnPause;
+            @Pause.performed += instance.OnPause;
+            @Pause.canceled += instance.OnPause;
         }
 
         /// <summary>
@@ -439,6 +555,18 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
             @Debug.started -= instance.OnDebug;
             @Debug.performed -= instance.OnDebug;
             @Debug.canceled -= instance.OnDebug;
+            @Focus.started -= instance.OnFocus;
+            @Focus.performed -= instance.OnFocus;
+            @Focus.canceled -= instance.OnFocus;
+            @Interact.started -= instance.OnInteract;
+            @Interact.performed -= instance.OnInteract;
+            @Interact.canceled -= instance.OnInteract;
+            @Inventory.started -= instance.OnInventory;
+            @Inventory.performed -= instance.OnInventory;
+            @Inventory.canceled -= instance.OnInventory;
+            @Pause.started -= instance.OnPause;
+            @Pause.performed -= instance.OnPause;
+            @Pause.canceled -= instance.OnPause;
         }
 
         /// <summary>
@@ -527,5 +655,33 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
         void OnDebug(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "Focus" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnFocus(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "Interact" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnInteract(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "Inventory" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnInventory(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "Pause" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnPause(InputAction.CallbackContext context);
     }
 }

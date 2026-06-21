@@ -42,6 +42,15 @@ public class DummyController : MonoBehaviour
     private bool can_attack = true;
     private Transform player;
 
+    [Header("Edge Detection")]
+    [SerializeField] private LayerMask ground_layer;
+    [SerializeField] private float ray_forward = 0.3f;
+    [SerializeField] private float ray_start_y = -0.5f;
+    [SerializeField] private float ray_length = 0.3f;
+
+    private enum EnemyState { Patrol, Chase, EdgeStop, ReturnToPatrol }
+    private EnemyState state = EnemyState.Patrol;
+
     void Start()
     {
         health = max_health;
@@ -79,8 +88,34 @@ public class DummyController : MonoBehaviour
     void Update()
     {
         if (dead) return;
+        if (state == EnemyState.EdgeStop) return;
 
         float dist_to_player = player != null ? Vector2.Distance(transform.position, player.position) : float.MaxValue;
+
+        if (state == EnemyState.ReturnToPatrol)
+        {
+            bool in_patrol_range = transform.position.x >= patrol_world_a && transform.position.x <= patrol_world_b;
+            if (in_patrol_range)
+            {
+                state = EnemyState.Patrol;
+            }
+            else
+            {
+                float patrol_center = (patrol_world_a + patrol_world_b) / 2f;
+                direction = patrol_center > transform.position.x ? 1 : -1;
+                transform.localScale = new Vector3(scale * direction, scale, scale);
+
+                if (!IsGroundAhead())
+                {
+                    StartCoroutine(EdgeStop());
+                    return;
+                }
+
+                rigid_body.linearVelocity = new Vector2(move_speed * direction, rigid_body.linearVelocity.y);
+                animator.SetBool("Walking", true);
+                return;
+            }
+        }
 
         if (player != null && dist_to_player <= detection_range)
         {
@@ -93,13 +128,44 @@ public class DummyController : MonoBehaviour
             }
             else
             {
+                if (!IsGroundAhead())
+                {
+                    StartCoroutine(EdgeStop());
+                    return;
+                }
+                state = EnemyState.Chase;
                 ChasePlayer();
             }
         }
         else
         {
+            if (!IsGroundAhead())
+            {
+                StartCoroutine(EdgeStop());
+                return;
+            }
+            state = EnemyState.Patrol;
             Patrol();
         }
+    }
+
+    private bool IsGroundAhead()
+    {
+        Vector2 origin = (Vector2)transform.position + new Vector2(direction * ray_forward, ray_start_y);
+        RaycastHit2D hit = Physics2D.Raycast(origin, Vector2.down, ray_length, ground_layer);
+        Debug.DrawRay(origin, Vector2.down * ray_length, hit.collider != null ? Color.green : Color.red);
+        return hit.collider != null;
+    }
+
+    private IEnumerator EdgeStop()
+    {
+        state = EnemyState.EdgeStop;
+        rigid_body.linearVelocity = new Vector2(0, rigid_body.linearVelocity.y);
+        animator.SetBool("Walking", false);
+        yield return new WaitForSeconds(2f);
+        direction *= -1;
+        transform.localScale = new Vector3(scale * direction, scale, scale);
+        state = EnemyState.ReturnToPatrol;
     }
 
     private void ChasePlayer()
@@ -226,5 +292,13 @@ public class DummyController : MonoBehaviour
         UpdateHealthBar();
         can_attack = true;
         animator.SetTrigger("Revive");
+    }
+
+    private void OnDrawGizmos()
+    {
+        Vector2 origin = (Vector2)transform.position + new Vector2(direction * ray_forward, ray_start_y);
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawSphere(origin, 0.05f);
+        Gizmos.DrawRay(origin, Vector2.down * ray_length);
     }
 }

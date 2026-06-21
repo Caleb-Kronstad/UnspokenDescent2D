@@ -54,6 +54,7 @@ public class PlayerController : MonoBehaviour
     private bool dashing = false;
     [SerializeField] private float dash_multiplier = 20.0f;
     [SerializeField] private float dash_stamina_cost = 20;
+    private int last_move_dir = 1;
 
     [SerializeField] private LayerMask ground_layer;
     [SerializeField] private float ray_distance = 1.0f;
@@ -98,6 +99,7 @@ public class PlayerController : MonoBehaviour
         if (dead) return;
 
         move_vector = controls.Land.Move.ReadValue<Vector2>();
+        if (move_vector.x != 0) last_move_dir = (int)Mathf.Sign(move_vector.x);
         bool touching_solid_ground = TouchingSolidGround();
 
         if (jumping && touching_solid_ground)
@@ -321,7 +323,8 @@ public class PlayerController : MonoBehaviour
 
         UseStamina(dash_stamina_cost);
         animator.SetTrigger("Dash");
-        rigid_body.AddForceX(dash_multiplier * direction, ForceMode2D.Impulse);
+        int dash_dir = move_vector.x != 0 ? (int)Mathf.Sign(move_vector.x) : last_move_dir;
+        rigid_body.AddForceX(dash_multiplier * dash_dir, ForceMode2D.Impulse);
     }
 
     public void EndDash()
@@ -391,6 +394,7 @@ public class PlayerController : MonoBehaviour
         foreach (GameObject enemy in enemies)
         {
             float dist = Vector2.Distance(this.transform.position, enemy.transform.position);
+            if (dist > 10f) continue;
             if (dist < nearest_dist)
             {
                 nearest_dist = dist;
@@ -398,6 +402,7 @@ public class PlayerController : MonoBehaviour
             }
         }
 
+        if (nearest == null) return;
         locked_target = nearest;
         target_locked = true;
     }

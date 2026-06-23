@@ -7,7 +7,6 @@ public class DummyController : MonoBehaviour
 {
     private int max_health = 100;
     private int health;
-    private float respawn_time = 3.0f;
     private List<string> damaged_by_ids = new List<string>();
     private bool dead = false;
 

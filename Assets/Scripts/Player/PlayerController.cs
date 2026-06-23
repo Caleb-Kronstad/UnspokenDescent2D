@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -14,6 +15,9 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField] private GameObject health_bar;
     [SerializeField] private GameObject stamina_bar;
+
+    private int heal_charges = 2;
+    [SerializeField] private TMP_Text heal_charges_text;
 
     private bool can_regen_stamina = true;
     [SerializeField] private float regen_stamina_cooldown = 1.0f;
@@ -92,6 +96,7 @@ public class PlayerController : MonoBehaviour
         health = max_health;
         stamina = max_stamina;
         can_regen_stamina = true;
+        heal_charges_text.text = heal_charges.ToString();
     }
 
     void Update()
@@ -142,6 +147,10 @@ public class PlayerController : MonoBehaviour
         if (controls.Land.Focus.triggered)
         {
             ToggleTargetLock();
+        }
+        if (controls.Land.Heal.triggered)
+        {
+            Heal();
         }
 
         RegenStamina();
@@ -209,6 +218,15 @@ public class PlayerController : MonoBehaviour
             health = max_health;
         }
         UpdateHealthBar();
+    }
+
+    public void Heal()
+    {
+        if (heal_charges <= 0) return;
+        if (health >= max_health) return;
+        heal_charges--;
+        heal_charges_text.text = heal_charges.ToString();
+        ReceiveHealing(max_health * 0.5f);
     }
     public void UpdateHealthBar()
     {
